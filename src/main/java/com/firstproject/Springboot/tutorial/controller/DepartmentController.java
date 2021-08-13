@@ -22,6 +22,7 @@ public class DepartmentController {
     @PostMapping("/departments")
     public Department saveDepartment(@RequestBody Department department) {
         LOGGER.info("Save Department of DepartmentController");
+        Department.builder().departmentName("XYZ").build();
         return departmentService.saveDepartment(department);
     }
 
