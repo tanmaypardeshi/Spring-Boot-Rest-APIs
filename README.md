@@ -1,3 +1,3 @@
 # Spring Boot REST APIs
 
-### Basic boilerplate code for Spring Boot REST API with H2 in memory database
+### Basic boilerplate code for Spring Boot REST APIs with H2 in memory database.
